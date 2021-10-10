@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.log {
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.video {
+    border-radius: 8px;
+}
+
+.videoWrapper {
+    width: 100%;
+    overflow:hidden;
+    display:block;
+    height: 480px;
+}
+.videoColumn {
+    text-align: center;
+}
+
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.loadingContainer > * {
+    margin-right: 20px;
+}
+
+.loadingText {}
+
+.chatColumn {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px 10px 0 10px;
+}
